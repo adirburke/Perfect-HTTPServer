@@ -14,9 +14,9 @@ let package = Package(
 	dependencies: [
 		// .package(url: "https://github.com/PerfectlySoft/Perfect-Net.git", from: "4.0.0"),
 		// .package(url: "https://github.com/adirburke/Perfect-HTTP.git", from: "4.0.0"),
-		.package(path: "~/Dev/Perfect/Perfect-HTTP"),
-		.package(path: "~/Dev/Perfect/Perfect-Net"),
-		.package(path: "~/Dev/Perfect/Perfect-CZlib-src"),
+		.package(path: "../Perfect-HTTP"),
+		.package(path: "../Perfect-Net"),
+		.package(path: "../Perfect-CZlib-src"),
 		// .package(url: "https://github.com/PerfectlySoft/Perfect-CZlib-src.git", from: "0.0.0")
 	],
 	targets: [
